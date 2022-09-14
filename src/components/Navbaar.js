@@ -29,17 +29,17 @@ const Navbaar = () => {
                             <MenuIcon />
                         </IconButton>
                         <Typography variant="h4" component="div" sx={{ flexGrow: 1 }} style={{ textAlign: "center" }}>
-                            Redux TO-DO App
+                            TODO App
                         </Typography>
                     </Toolbar>
                 </AppBar>
             </Box>
 
-            {
+            {/* {
                 dlttask ? <Alert variant="danger" onClose={() => setDlettask(false)} dismissible>
                     <Alert.Heading>Your Task remove Succesfully</Alert.Heading>
                 </Alert> : ""
-            }
+            } */}
         </>
     )
 }

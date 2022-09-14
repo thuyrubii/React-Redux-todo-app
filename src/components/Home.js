@@ -23,7 +23,7 @@ const Home = () => {
         <>
             <div className="container">
                 <section className='mt-3 text-center'>
-                    <h3>Enter Your Task</h3>
+                    <h3>Nhập Task của bạn</h3>
 
                     <div className="todo col-lg-5 mx-auto d-flex justify-content-between align-items-center">
                         <input name='task' value={data} onChange={(e)=>setData(e.target.value)} className='form-control' />
